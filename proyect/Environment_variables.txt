@@ -1,0 +1,7 @@
+Environment vaiable python:
+
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python310;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\Scripts
+
+OLD:
+%USERPROFILE%\AppData\Local\Microsoft\WindowsApps
+C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin
