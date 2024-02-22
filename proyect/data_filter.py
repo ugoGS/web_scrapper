@@ -75,6 +75,8 @@ DATA = [
 def run():
 
     # Comprehensions solutions
+    # Impriir lista para ver resultados de cada una
+
     all_python_devs = [worker["name"] for worker in DATA if worker["language"] == "python"]
 
     all_Platzi_workers = [worker["name"] for worker in DATA if worker["organization"] == "Platzi"]
@@ -85,12 +87,20 @@ def run():
 
     adults_n = list(map(lambda worker: worker | {"string":  str(worker["age"] + 2) + "K"}, old_people))
 
+    for worker in all_python_devs:
+        print(worker)
+
+    print('---------------------------')
+    
     for worker in adults_n:
         print(worker)
+    
+    #print(adults_n)
 
     #Probando cadenas
     string_v = 'KLMiwu98oS'
-    print(string_v[0:1:1])    
+    print(string_v[0:5:-2])    
+  
 
 if __name__ == '__main__':
     run() 

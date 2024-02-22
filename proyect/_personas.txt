@@ -1,0 +1,3 @@
+Magalena,Solomun,28,162,mexican
+Boris,Brejcha,39,170,german
+Leilani,Garcia,11,150,mexican

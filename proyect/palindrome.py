@@ -3,9 +3,14 @@ def is_palindrome(string: str) -> bool:
     return string == string[::-1]
 
 def run():
-    word: str = input("Get a word: ")
+    with open("./names.txt", "r", encoding="utf-8") as f: 
+        names = [linea.rstrip('\n') for linea in f]
 
-    print(word + ' ' + str(is_palindrome(word)) )
+    print(names)
+    
+    for linea in names:
+        if is_palindrome(linea):
+            print(linea + " es palindromo")    
 
 if __name__ == '__main__':
     run()
